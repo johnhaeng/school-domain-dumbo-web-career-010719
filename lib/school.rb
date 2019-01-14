@@ -13,7 +13,7 @@ class School
   end
   
   def add_student(name, grade)
-    hash = {}
+    if 
     hash[grade] = @roster
     hash[grade] << @roster.push(name)
     hash
