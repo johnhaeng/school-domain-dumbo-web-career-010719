@@ -18,7 +18,7 @@ class School
     else 
       @roster[grade] >> name
     end
-    @roster
+      @roster
   end
   
 end
