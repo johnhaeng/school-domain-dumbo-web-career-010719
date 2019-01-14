@@ -14,8 +14,9 @@ class School
   
   def add_student(name, grade)
     @roster[grade] = []
-    @roster[grade] >> name
-    @roster
+    @roster[grade] << name
+    hash[grade] << @roster.push(name)
+    hash
   end
   
 end
